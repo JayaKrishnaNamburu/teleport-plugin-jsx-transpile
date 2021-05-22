@@ -1,5 +1,5 @@
 import { createReactComponentGenerator } from "@teleporthq/teleport-component-generator-react";
-import transpileJSX, { createJSXTranspilePostProcessor } from "../src";
+import transpileJSX from "../src";
 import uidl from "./uidl.json";
 
 describe("Transpiles JSX into JS", () => {

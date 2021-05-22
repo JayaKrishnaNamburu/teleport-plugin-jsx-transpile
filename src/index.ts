@@ -31,8 +31,6 @@ export const createJSXTranspilePostProcessor = (
         production: true,
       }).code;
     }
-    console.log(codeChunks[fileType]);
-
     return codeChunks;
   };
 
